@@ -8,6 +8,7 @@ Currently:
 Backend Next steps:
 - Include a Framework (dotNet, React, etc.)
 - Add a DNS
+- Track site activity on the cloud (CloudWatch, Insights, etc.) 
 
 Frontend Next steps:
 - Link icons
