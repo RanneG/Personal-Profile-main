@@ -1,10 +1,10 @@
 # Personal-Profile
 
-Currently: 
+Currently:
 - Cool trendy site
 - Added code linting workflow
 
-Next steps: 
+Next steps:
 - Deploy to cloud (AWS)
 - Include a Framework (dotNet, React, etc.)
 - Add some JS
