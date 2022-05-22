@@ -1,5 +1,7 @@
 # Personal-Profile
 
+Currently, this is a simple portfolio with a CI/CD workflow, automated to deploy on a S3 bucket.
+
 Currently:
 - Cool trendy site
 - Added code linting workflow
@@ -8,7 +10,7 @@ Currently:
 Backend Next steps:
 - Include a Framework (dotNet, React, etc.)
 - Add a DNS
-- Track site activity on the cloud (CloudWatch, Insights, etc.) 
+- Track site activity on the cloud (CloudWatch, Insights, etc.)
 
 Frontend Next steps:
 - Link icons
