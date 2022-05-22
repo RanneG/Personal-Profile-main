@@ -1,7 +1,7 @@
 # Personal-Profile
 
 Currently: 
-- Cool trendy website
+- Cool trendy site
 - Added code linting workflow
 
 Next steps: 
