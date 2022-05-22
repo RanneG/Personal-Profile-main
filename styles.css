@@ -1,19 +1,19 @@
 body {
   margin: 0;
   padding: 0;
-  background: url(bg.jpg) no-repeat;
+  background: url("bg.jpg") no-repeat;
   background-size: cover;
 }
 
 .box {
   width: 450px;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0 0 0 / 40%);
   padding: 40px;
   text-align: center;
   margin: auto;
   margin-top: 5%;
   color: white;
-  font-family: 'Century Gothic',sans-serif;
+  font-family: "Century Gothic", sans-serif;
 }
 
 .box-img {
@@ -58,4 +58,4 @@ ul {
 
 .box li a:hover {
   color: #b9b9b9;
-}
+} \n
