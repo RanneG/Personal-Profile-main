@@ -3,11 +3,18 @@
 Currently:
 - Cool trendy site
 - Added code linting workflow
-
-Next steps:
 - Deploy to cloud (AWS)
+
+Backend Next steps:
 - Include a Framework (dotNet, React, etc.)
-- Add some JS
+- Add a DNS
+
+Frontend Next steps:
+- Link icons
+- Add about me
+- Add Scroll effects
+- Add Footer
+- Add Navigation bar
 
 Best Practice:
 1. Create a branch
