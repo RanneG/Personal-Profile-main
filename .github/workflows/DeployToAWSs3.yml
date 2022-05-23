@@ -1,3 +1,4 @@
+---
 name: DeployToAWSS3
 
 on:
