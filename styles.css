@@ -87,7 +87,7 @@ li a {
   font-size:20px;
   border-color: #f4f4f4;
   margin: 4px 2px;
-  transition: 1s;
+  transition: 0.5s;
 }
 .cv:hover
 {
@@ -98,7 +98,7 @@ li a {
   font-size:20px;
   border: none;
   margin: 4px 2px;
-  transition: 0.3s;
+  transition: 1s;
 }
 
 .contact_me
@@ -110,7 +110,7 @@ li a {
   font-size:20px;
   border-color: #f4f4f4;
   margin: 4px 2px;
-  transition: 1s;
+  transition: 0.5s;
 }
 .contact_me:hover
 {
@@ -121,7 +121,7 @@ li a {
   font-size:20px;
   border: none;
   margin: 4px 2px;
-  transition: 0.3s;
+  transition: 1s;
 }
 
 /* About Me */
