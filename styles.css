@@ -147,22 +147,17 @@ ul {
 }
 
 /* My Projects */
-.projects {
-  margin-top: 7.5%;
-  margin-bottom: 7.5%;
-  letter-spacing: 5px;
-  text-align: center;
-  padding-left: 15%;
-  padding-right: 15%;
+.grid-container {
+  display: grid;
+  grid: auto / auto auto;
+  grid-gap: auto;
+  padding: auto;
 }
 
-.proj-list {
-  list-style-type:none;
-  text-align: left;
-  margin-top: 2.5%;
-  margin-bottom: 5%;
-  letter-spacing: 5px;
-  overflow: hidden;
+.grid-container > div {
+  text-align: center;
+  padding: 20px 25%;
+  font-size: 30px;
 }
 
 /* BOT NAV BAR */
