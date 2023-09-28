@@ -87,17 +87,14 @@ li a {
   font-size:20px;
   border-color: #f4f4f4;
   margin: 4px 2px;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 .cv:hover
 {
   background-color:#5eead4;
   color:#0d0129;
-  /* padding: 20px 65px; */
   text-align: center;
-  font-size:20px;
-  border: none;
-  /* margin: 4px 2px; */
+  border-color: #5eead4;
   transition: 1s;
 }
 
@@ -110,17 +107,14 @@ li a {
   font-size:20px;
   border-color: #f4f4f4;
   margin: 4px 2px;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 .contact_me:hover
 {
   background-color:#5eead4;
   color:#0d0129;
-  /* padding: 20px 65px; */
   text-align: center;
-  font-size:20px;
-  border: none;
-  /* margin: 4px 2px; */
+  border-color: #5eead4;
   transition: 1s;
 }
 
