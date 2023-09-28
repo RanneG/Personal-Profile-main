@@ -12,13 +12,13 @@ ul {
   padding: 0;
 }
 
-li {
+.nav-item {
   display: inline;
   float: left;
   padding: 14px 5px;
 }
 
-li a {
+.top-hvr {
   display: block;
   text-align: center;
   padding: 20px 20px;
@@ -29,14 +29,14 @@ li a {
   overflow:hidden;
 }
 
-.hvr
+.top-hvr
 {
   text-decoration:none;
   color:#f4f4f4;
   position: relative;
   letter-spacing: 5px;
 }
-.hvr:before
+.top-hvr:before
 {
   content: "";
   position: absolute;
@@ -48,7 +48,7 @@ li a {
   visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
-.hvr:hover:before {
+.top-hvr:hover:before {
   visibility: visible;
   width: 75%;
 }
@@ -69,6 +69,7 @@ li a {
   letter-spacing: 5px;
   text-align: left;
   padding-left: 15%;
+  padding-right: 15%;
 }
 
 /* Contact */
@@ -143,4 +144,47 @@ li a {
   text-align: left;
   padding: 20px 20px;
   margin-left: 0;
+}
+
+/* My Projects */
+.projects {
+  margin-top: 7.5%;
+  margin-bottom: 7.5%;
+  letter-spacing: 5px;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.proj-list {
+  list-style-type:none;
+  text-align: left;
+  margin-top: 2.5%;
+  margin-bottom: 5%;
+  letter-spacing: 5px;
+  overflow: hidden;
+}
+
+/* BOT NAV BAR */
+.botnav {
+  overflow: hidden;
+  background-color: #0D0129;
+  bottom: 0;
+  width: 100%;
+}
+
+.bot-item {
+  display: inline;
+  float: left;
+  padding: 14px 5px;
+}
+
+.bot-hvr {
+  display: block;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  color:#f4f4f4;
+  position: relative;
+  letter-spacing: 5px;
 }
