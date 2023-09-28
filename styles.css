@@ -87,7 +87,7 @@ li a {
   font-size:20px;
   border-color: #f4f4f4;
   margin: 4px 2px;
-  transition: 0.2s;
+  transition: 0.1s;
 }
 .cv:hover
 {
@@ -107,7 +107,7 @@ li a {
   font-size:20px;
   border-color: #f4f4f4;
   margin: 4px 2px;
-  transition: 0.2s;
+  transition: 0.1s;
 }
 .contact_me:hover
 {
