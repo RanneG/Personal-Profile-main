@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="styles.css">
         <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Ranne Gerodias</title>
         <script src="myscripts.js"></script>
     </head>
@@ -60,10 +61,22 @@
 
         <div class='botnav'>
             <ul class="navbar-bot">
-                <li class="bot-item"><a href='' class='bot-hvr'>Home</a></li>
-                <li class="bot-item"><a href='' class='bot-hvr'>About Me</a></li>
-                <li class="bot-item"><a href='' class='bot-hvr'>My Projects</a></li>
+                <li class="bot-item"><div class='bot-hvr' onclick="smoothScroll(document.getElementById('home'))">Home</div></li>
+                <li class="bot-item"><div class='bot-hvr' onclick="smoothScroll(document.getElementById('about'))">About Me</div></li>
+                <li class="bot-item"><div class='bot-hvr' onclick="smoothScroll(document.getElementById('projects'))">My Projects</div></li>
             </ul>
         </div>
+
+        <div class="social-icons">
+            <a href="https://www.instagram.com/rannegerodias/" title="instagram">  
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/ranne-gerodias-809460108/" title="linkedin">
+              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </a>
+            <!-- <a href="#" title="google">
+              <i class="fa fa-google" aria-hidden="true"></i>
+            </a> -->
+          </div>
     </body>
 </html>
