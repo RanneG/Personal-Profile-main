@@ -5,21 +5,22 @@
         <link rel="stylesheet" href="styles.css">
         <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
         <title>Ranne Gerodias</title>
+        <script src="myscripts.js"></script>
     </head>
     <body>
         <div class='topnav'>
             <ul class="navbar-nav">
-                <li class="nav-item"><a href='' class='top-hvr'>Home</a></li>
-                <li class="nav-item"><a href='' class='top-hvr'>About Me</a></li>
-                <li class="nav-item"><a href='' class='top-hvr'>My Projects</a></li>
+                <li class="nav-item"><div type='button' class='top-hvr' onclick="smoothScroll(document.getElementById('home'))">Home</div></li>
+                <li class="nav-item"><div type='button' class='top-hvr' onclick="smoothScroll(document.getElementById('about'))">About Me</div></li>
+                <li class="nav-item"><div type='button' class='top-hvr' onclick="smoothScroll(document.getElementById('projects'))">My Projects</div></li>
             </ul>
             <div class='navbar-right'>
-                <li class="nav-item"><a href='' class='top-hvr'>My CV</a></li>
+                <li class="nav-item"><a href="RanneGerodiasCV2023.pdf" target="_blank" class='top-hvr'>My CV</a></li>
                 <li class="nav-item"><a href='' class='top-hvr'>Contact</a></li>
             </div>
         </div>
 
-        <div class='home'>
+        <div class='home' id='home'>
             <h1>
               Hello! <br />
               I’m Ranne, I am making a website.
@@ -28,18 +29,18 @@
         </div>
 
         <div class="contact">
-            <button class='cv'>My CV</button>
+            <a href="RanneGerodiasCV2023.pdf" target="_blank"><button class='cv'>My CV</button></a>
             <button class='contact_me'>Contact Me</button>
         </div>
 
-        <div class='about'>
+        <div class='about' id='about'>
             <h1>
               About Me
             </h1>
-            <p>Lorem ipsum dolor sit amet. At officiis optio ut harum repellat sit quia officia. In voluptatem laudantium qui expedita neque aut blanditiis iusto. Est sint illo qui dolorem molestias qui dolorem dolores vel totam repudiandae. Read more on My CV.</p>
+            <p>I'm a tech enthusiast skilled in DevOps and data, excelling in AWS, Terraform, Docker, and Python. I love automating tasks and making sense of big data. Let's keep the tech journey rolling!</p>
         </div>
 
-        <div class='projects'>
+        <div class='projects' id='projects'>
             <h1>
                 My Projects
             </h1>

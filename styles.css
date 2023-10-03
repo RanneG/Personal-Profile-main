@@ -160,6 +160,15 @@ ul {
   font-size: 30px;
 }
 
+.proj-img {
+  opacity: 1;
+}
+
+.proj-img:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
 /* BOT NAV BAR */
 .botnav {
   overflow: hidden;
@@ -183,3 +192,4 @@ ul {
   position: relative;
   letter-spacing: 5px;
 }
+
