@@ -62,10 +62,18 @@ ul {
   justify-content: center;
 }
 
+.bg_home {
+  /* Background format */ 
+  background-image: url("images/background_man.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
 /* home */
 .home {
-  margin-top: 7.5%;
-  margin-bottom: 7.5%;
+  padding-top: 7.5%;
+  padding-bottom: 2%;
   letter-spacing: 5px;
   text-align: left;
   padding-left: 15%;
@@ -74,8 +82,8 @@ ul {
 
 /* Contact */
 .contact {
-  margin-top: 7.5%;
-  margin-bottom: 7.5%;
+  padding-top: 2%;
+  padding-bottom: 7.5%;
   letter-spacing: 5px;
   text-align: left;
   padding-left: 15%;
@@ -119,10 +127,18 @@ ul {
   transition: 1s;
 }
 
+.bg_about {
+  /* Background format */ 
+  background-image: url("images/background_grid.png");
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /* About Me */
 .about {
-  margin-top: 7.5%;
-  margin-bottom: 7.5%;
+  padding-top: 7.5%;
+  padding-bottom: 7.5%;
   letter-spacing: 5px;
   overflow: hidden;
   padding-left: 15%;
@@ -148,6 +164,7 @@ ul {
 
 /* My Projects */
 .projects {
+  padding-top: 2.5%;
   text-align: center;
 }
 .grid-container {
